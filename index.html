@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+<!-- <link rel="stylesheet" href="style.css"> -->
+
+<title>Hello World</title>
+
+<div style="display:flex;">
+
+	<button onclick="start()">start</button>
+	<button style="margin-left:5px;" onclick="clear_all()">clear</button>
+
+</div>
+
+<div style="display:flex;flex-direction:column;">
+
+	<h3>Drag and Drop Folder here</h3>
+
+	<ul id="show_url"></ul>
+
+</div>
+
+<br>
+
+<div id="result"></div>
+
+<script src="renderer.js"></script>
